@@ -1,3 +1,3 @@
 db.produtos.createIndex({ descricao: "text" }, { language_override: "portuguese" });
 
-db.produtos.count({ $text: { $search: "frango hamburguer" } });
+db.produtos.count({ $text: { $search: "frango hambúrguer" } });
